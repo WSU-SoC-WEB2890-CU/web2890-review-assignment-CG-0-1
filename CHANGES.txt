@@ -1,1 +1,54 @@
 TODO: List here all the changes you made to given template to adapt it to your needs
+
+1. In the '_custom.scss' file, I changed the $primary and $secondary colors 
+   ($teal-dark (#0d503c) and $teal-light (#20c997)) to $web-chocolate (#d9641e) and 
+   $princeton-orange (#ed7d27), respectively.
+
+   I changed the primary and secondary colors because I wanted those colors 
+   to be similar to the $orange (#fd7e14) color.
+
+2. In the '_custom.scss' file, I decided to change the $orange (#fd7e14) to 
+   $cultured (#f7f7f7).
+
+   I decided that there was too much $orange and that a new color had to replace it.
+
+3. In the '_footer.scss' file, I changed the $orange color in stroke to $cultured.
+
+   For the icons in the footer section to pop more.
+
+4. In the '_buttons.scss' file, I added the 'i {color: $primary;}' and changed the 
+   color inside te rgba() in the span {} of the &:hover to $cultured color.
+
+   For the button to pop better when the user hovers the mouse over it.
+
+5. Replaced all fake text with real text and altered some existing text.
+
+   To reflect my personality as well as give the user a glimpse of what I'm able to do.
+
+6. Replaced all the images in the 'services' folder.
+
+   For the images to not only better reflect the title they're supposed to represent 
+   but also so that their color matches with the $primary and $secondary colors of my 
+   website.
+
+7. Added an 'alert' component in the 'FAQ' section.
+
+   To clarify to the user that I'll answer any question that isn't listed in the 
+   'FAQ' section.
+
+8. Added the 'progress' component as the last section of the webpage.
+
+   Show that the user has finished reading all the main sections of the webpage.
+
+9. Replaced all the images in the 'portfolio' folder
+
+   For the new images to reflect their respective new titles and categories.
+
+10. Created internal links in the navbar.
+
+    Make it easier for the user to navigate the webpage using the links in the navbar.
+
+11. Use '@media (max-width: 767.98px) {}' in '_faq.scss', '_footer.scss', and 
+    '_get-started.scss'
+
+    To make the reading in tablets and smaller devices more linear.
